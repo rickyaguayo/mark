@@ -8,17 +8,22 @@ body {
 .heading-primary {
     text-transform: uppercase;
     color: $color-black;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 
     &--main {
         font-size: 7rem;
         display: block;
         letter-spacing: 3px;
+
+        animation: moveInTop 2s ease;
     }
 
     &--sub {
         font-size: 4rem;
         display: block;
         letter-spacing: 7px;
+
+        animation: moveInTop 2s ease 1s;
+        animation-fill-mode: backwards;
     }
 }
