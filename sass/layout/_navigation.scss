@@ -1,0 +1,15 @@
+.navigation {
+    width: 25vw;
+    height: 100vh;
+    background-color: lightslategray;
+    position: fixed;
+
+    &__name {
+        font-size: 4rem;
+        display: inline-block;
+        position: fixed;
+        top: 10%;
+        left: 4%;
+        text-transform: uppercase;
+    }
+}
